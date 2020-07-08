@@ -1,24 +1,22 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import HomePage from './Components/HomePage';
+
+/// this is a component
+/// Name: App
+/// Parameter is nothing
+/// return a HTML to show on the UI
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <table border="1">
+        <tr>
+          <td><HomePage /></td>
+        </tr>
+      </table>
     </div>
   );
 }
